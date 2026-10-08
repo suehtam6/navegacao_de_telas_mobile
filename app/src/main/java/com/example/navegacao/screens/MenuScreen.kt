@@ -49,7 +49,7 @@ fun MenuScreen(navController: NavController) {
 
             Button(
                 onClick = {
-                    navController.navigate("perfil")
+                    navController.navigate("perfil/Matheus/21")
                 },
                 colors = ButtonDefaults.buttonColors(
                     Color.White
@@ -71,7 +71,7 @@ fun MenuScreen(navController: NavController) {
 
             Button(
                 onClick = {
-                    navController.navigate("pedidos")
+                    navController.navigate("pedidos?numeroPedido=1234")
                 },
                 colors = ButtonDefaults.buttonColors(
                     Color.White

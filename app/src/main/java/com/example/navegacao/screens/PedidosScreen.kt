@@ -22,7 +22,7 @@ import androidx.navigation.NavController
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun PedidosScreen(navController: NavController) {
+fun PedidosScreen(navController: NavController, numeroPedido : String) {
     Box(
         modifier = Modifier.fillMaxSize()
             .background(Color(0xFFAFA9A9))
@@ -32,7 +32,7 @@ fun PedidosScreen(navController: NavController) {
     ) {
 
                 Text(
-                    text = "Pedidos",
+                    text = "Pedidos - $numeroPedido",
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color.White
